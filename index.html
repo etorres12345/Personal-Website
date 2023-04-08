@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Erik's Site</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./index.css">
+        <script type="text/javascript">
+            function showDate() {
+              var d = new Date();
+              var curr_date = d.getDate();
+              var curr_month = d.getMonth() + 1; //months are zero based
+              var curr_year = d.getFullYear();
+              document.write(curr_date + "-" + curr_month + "-" + curr_year);
+            }
+          </script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header class="header-section">
+            <p id="logo-text">Erik Torres</p>
+            <nav class="nav-section">
+                <ul class="nav-item-sec">
+                    <li class="nav-links"><a href="#about-me-section">About Me</a></li>
+                    <li class="nav-links"><a href="#projects-section">Projects</a></li>
+                    <li class="nav-links"><a href="#contact-section">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main-section">
+            <section id="about-me-section">
+                <div id="erik-img">
+                    <img src="./erik_linkedIn.jpeg" alt="Photo of Erik Torres" height= "225rem" width="225rem" class="mainImg">
+                </div>
+                <div class="about-me-text">
+                    <h2>About Me</h2>
+                    <p>Hi, my name is Erik Torres! I'm learning how to code in order to get a new career. I'm originally from Brooklyn, NY and currently live in Hamburg, Germany. I started learning how to code on my own through Codecademy in 2022, it has been a challenging but enjoyable journey thus far. I am currently learning how to combine HTML, CSS, and Javascript. This page is here to exhibit some of the projects i've been working on over the past several months.</p>    
+                </div>
+            </section>
+    
+            <section id="projects-section">
+                <div class="project-heading">
+                    <h2>Some of the projects i've been working on:</h2>
+                </div>
+                <div class="project-detail">
+                    <ul class="project-list">
+                        <li class="project-list">My first project</li>
+                        <li class="project-list">My second project</li>
+                        <li class="project-list">My fourth project</li>
+                    </ul>
+                </div>
+                <div class= "project-1">
+                    <h3 class="prj-h3">1st Project - Willy Mammouth</h3>
+                    <div class="img-div">
+                        <img src="./coder.jpg" alt="someone coding" height="200rem" width="250rem" >
+                    </div>    
+                    <p>This project cures the cancer of Willy Mammouths using Javascript.</p>
+                </div>
+                <div class="project-2">
+                    <h3 class="prj-h3">2nd Project - A.I. & ChatGPT Creation</h3>
+                    <div class="img-div">
+                        <img src="./coding.webp" alt="image of code on screen" height="200rem" width="250rem" class="prj-img">
+                    </div>
+                    <p>This project created A.I. and ChatGPT using HTML and CSS.</p>
+                </div>
+                <div class="project-4">
+                    <h3 class="prj-h3">4th Project - Mother Code</h3>
+                    <div class="img-div">
+                        <img src="./program.png" alt="image of the mother of all code" height="200rem" width="250rem" class="prj-img">
+                    </div>
+                    <p>In this project is God code. The mother of all codes. Made by using all coding languages known and unknown to man.</p>
+                </div>
+            </section>
+
+            <section id="contact-section">
+                <div class="contact-heading">
+                    <h2>Contact Me</h2>
+                    <p>Want to contact me and share some advice or compliments? Here are some of the ways you can contact me:</p>
+                </div>
+                <div class="email-contact-div">
+                    <h3>Email</h3>
+                    <p>Erik.Torres1215@gmail.com</p>
+                </div>
+                <div class="ig-contact-div">
+                    <h3>Instagram</h3>
+                    <p><a href="#">@eriktorresx</a></p>
+                </div>
+                <div class="mail-contact-div">
+                    <h3>Mailing Address</h3>
+                    <p>123 Google Drive <br>North West Hollywood <br>90210, California <br>USA
+                    </p>
+                </div>
+                <div class="in-touch-div">
+                    <h3>Drop your contact info to keep in touch!</h3>
+                    <form class="form-section">
+                        <label for="email">Type your email in here: </label>
+                        <input type="text" id="email" name="email">
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <span class ="footer-text">Thanks for visiting my page!</span>
+            <p>2023 Erik Torres</p>
+            <span class="date-js"><script type="text/javascript">showDate();</script></span>
+        </footer>
+        <script src="" async defer></script>
+    </body>
+</html>

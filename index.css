@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li, a, p, label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:brown;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    color:firebrick;
+}
+
+header {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+#logo-text {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.nav-item-sec {
+    list-style: none;
+}
+
+.nav-item-sec li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-item-sec li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-item-sec li a:hover {
+    color:black;
+}
+
+@media screen and (max-width: 700px) {
+    .nav-item-sec li {
+        display: flex;
+        justify-content: flex-end;
+        text-decoration: underline;
+        padding: 0.3rem;
+    }
+    #logo-text {
+        font-size: 1.5rem;
+    }
+
+}
+
+#about-me-section {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 1rem;
+}
+
+.about-me-text {
+    padding: 10%;
+}
+
+.about-me-text p {
+    letter-spacing: 1px;
+    color: black;
+}
+
+.about-me-text h2 {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    #about-me-section {
+        flex-wrap: wrap;
+    }
+    #erik-img img {
+        height: 10rem;
+        width: 10rem;
+    }
+}
+
+.about-me-text h2:hover {
+    color:black;
+}
+
+#erik-img img {
+    border-radius: 50%;
+}
+
+#projects-section {
+    background-color:grey;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 120px;
+}
+
+#projects-section h3, #projects-section p, #projects-section h2, #projects-section li {
+    color: white;
+}
+
+.project-heading {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 40px;
+}
+
+.project-heading h2:hover {
+    color: black;
+}
+
+.project-detail {
+    display: flex;
+    justify-content: center;
+}
+
+.project-list {
+    list-style-type:circle;
+    color: black;
+}
+
+.prj-h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.project-1, .project-2, .project-4 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 25px;
+}
+
+.project-1:hover, .project-2:hover, .project-4:hover {
+    background-color: rgb(172, 170, 170);
+}
+
+.project-1 p, .project-2 p, .project-4 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+
+.img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.9rem;
+}
+
+.contact-heading h2{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+.contact-heading h2:hover {
+    color: black;
+}
+
+.contact-heading p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+}
+
+.email-contact-div h3{
+    display: flex;
+    justify-content: center;
+}
+
+.email-contact-div h3:hover {
+    color: black;
+}
+
+.email-contact-div p {
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color:antiquewhite;  
+}
+
+.ig-contact-div h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.ig-contact-div h3:hover {
+    color: black;
+}
+
+.ig-contact-div p a {
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: antiquewhite;
+}
+
+.mail-contact-div h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.mail-contact-div h3:hover {
+    color: black;
+}
+
+.mail-contact-div p {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    color: black;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.in-touch-div h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.in-touch-div h3:hover {
+    color: black;
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    color: black;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.form-section input, label {
+    color: black;
+    padding: auto;
+    margin-right: 5px;
+}
+
+.footer-text {
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 12px;
+    padding: auto;
+}
+
+.date-js {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
